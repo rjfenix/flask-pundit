@@ -1,7 +1,7 @@
 import inspect
 import flask
 from functools import wraps
-from helpers import dasherized_name
+from flask_pundit.helpers import dasherized_name
 
 
 def verify_authorized(func):
